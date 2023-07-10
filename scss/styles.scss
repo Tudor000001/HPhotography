@@ -8,3 +8,19 @@ body{
     font-family:Roboto;
     color:white;
 }
+
+#logoMare{
+    width:300px;
+    z-index:1;
+}
+
+#center{
+    display:flex;
+    justify-content:center;
+}
+
+#videoMare{
+    position:absolute;
+    width:100%;
+    z-index:0;
+}
