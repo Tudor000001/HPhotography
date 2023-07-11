@@ -9,9 +9,61 @@ body{
     color:white;
 }
 
+article{
+    background-color:red;
+    width:50%;
+    margin:50px;
+    word-wrap:break-word;
+}
+
+main{
+    background-color:blue;
+}
+
+#second {
+    background-color: red;
+    width: 50%;
+    margin: 50px;
+    width:1100px;
+    word-wrap: break-word;
+}
+
+#titleTTD {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#imageTTD{
+    position:relative;
+    width:600px;
+    text-align:center;
+    border-radius:20px;
+}
+
+#titleMicTTD {
+    position: relative;
+    vertical-align: top;
+    display: inline;
+    font-size:20px;
+    font-weight:600;
+}
+
+#titleS{
+    letter-spacing:2px;
+    font-size:30px;
+    font-weight:600;
+}
+
+#textS{
+    font-size:20px;
+}
+
 #logoMare{
+    position:absolute;
     width:300px;
-    z-index:1;
+    z-index:3;
+    top:400px;
 }
 
 #center{
@@ -19,8 +71,42 @@ body{
     justify-content:center;
 }
 
-#videoMare{
+#videoMare {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#triangle{
     position:absolute;
+    top:410px;
+    height:0px;
+    width:0px;
+    z-index:2;
+    border-bottom: 200px solid black;
+    border-left: 1224px solid transparent;
+}
+
+#text-overlay {
+    position: absolute;
+    top: 0px;
+    height:86px;
+    left: 0px;
+    color: white;
+    font-size: 24px;
+    background-color:black;
     width:100%;
-    z-index:0;
+    font-weight:600;
+}
+
+#text-overlayS {
+    position: absolute;
+    top: 0px;
+    height: 86px;
+    left: 0px;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    font-weight: 600;
 }
