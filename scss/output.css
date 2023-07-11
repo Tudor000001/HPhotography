@@ -19,10 +19,24 @@ main {
 
 #second {
   background-color: red;
-  width: 50%;
   margin: 50px;
-  width: 1100px;
+  width: 90%;
+  height: 700px;
   word-wrap: break-word;
+}
+
+#third {
+  background-color: red;
+  width: 90%;
+  margin: 50px;
+  word-wrap: break-word;
+}
+
+#fourth {
+  background: red;
+  width: 90%;
+  word-wrap: break-word;
+  margin: 50px;
 }
 
 #titleTTD {
@@ -31,11 +45,19 @@ main {
   font-weight: 600;
 }
 
+#titleE {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
 #imageTTD {
   position: relative;
-  width: 600px;
+  height: 600px;
   text-align: center;
   border-radius: 20px;
+  float: left;
 }
 
 #titleMicTTD {
@@ -46,6 +68,13 @@ main {
   font-weight: 600;
 }
 
+#textMicTTD {
+  position: relative;
+  text-align: center;
+  line-height: 25px;
+  font-size: 19px;
+}
+
 #titleS {
   letter-spacing: 2px;
   font-size: 30px;
@@ -54,6 +83,12 @@ main {
 
 #textS {
   font-size: 20px;
+}
+
+#textE {
+  position: absolute;
+  background-color: orange;
+  width: 40%;
 }
 
 #logoMare {
@@ -106,6 +141,68 @@ main {
   width: 100%;
   text-align: right;
   font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin-left: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
