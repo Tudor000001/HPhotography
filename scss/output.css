@@ -7,18 +7,12 @@ body {
 }
 
 article {
-  background-color: red;
   width: 50%;
   margin: 50px;
   word-wrap: break-word;
 }
 
-main {
-  background-color: blue;
-}
-
 #second {
-  background-color: red;
   margin: 50px;
   width: 90%;
   height: 700px;
@@ -26,14 +20,12 @@ main {
 }
 
 #third {
-  background-color: red;
   width: 90%;
   margin: 50px;
   word-wrap: break-word;
 }
 
 #fourth {
-  background: red;
   width: 90%;
   word-wrap: break-word;
   margin: 50px;
@@ -52,12 +44,26 @@ main {
   text-align: center;
 }
 
+#titleP {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
 #imageTTD {
   position: relative;
-  height: 600px;
+  width: 600px;
   text-align: center;
   border-radius: 20px;
   float: left;
+}
+
+#imageP {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
 }
 
 #titleMicTTD {
@@ -87,7 +93,6 @@ main {
 
 #textE {
   position: absolute;
-  background-color: orange;
   width: 40%;
 }
 
