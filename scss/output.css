@@ -29,6 +29,7 @@ article {
   width: 90%;
   word-wrap: break-word;
   margin: 50px;
+  text-align: center;
 }
 
 #fifth {
@@ -90,8 +91,7 @@ article {
 
 #imageP {
   position: relative;
-  width: 100%;
-  text-align: center;
+  width: 1100px;
   border-radius: 10px;
 }
 
@@ -158,9 +158,9 @@ article {
 
 #triangle {
   position: absolute;
-  top: 404px;
-  height: 0px;
-  width: 0px;
+  bottom: 30%;
+  height: 100%;
+  width: 100%;
   z-index: 2;
   border-bottom: 200px solid black;
   border-left: 1224px solid transparent;
